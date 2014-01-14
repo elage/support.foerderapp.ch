@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+  padding: 3em 0;
+  font: 18px/1.5em "freight-sans-pro", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 600;
+}
+
+header.logo {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.step {
+  margin: 2em 0;
+}
+
+.step img {
+  max-width: 100%;
+}
+
+.step img.screenshot {
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, .33);
+  border-radius: 2px;
+}
